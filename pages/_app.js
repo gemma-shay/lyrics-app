@@ -5,12 +5,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>RapidAPI - Lyrics App</title>
+        <title>Lyrics App PoC</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <Component {...pageProps} />
     </>

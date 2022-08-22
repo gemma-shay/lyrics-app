@@ -36,13 +36,10 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col md:px-12 px-0 relative bg-background font-poppins items-center min-h-screen">
+    <div className="flex flex-col md:px-12 px-0 relative bg-background items-center min-h-screen">
       <h1 className="text-6xl font-bold text-primary mt-10">
-        <span className="text-active">Lyrics</span> App
+        Lyrics App PoC
       </h1>
-      <h2 className="text-primary text-2xl font-light mt-6">
-        Get the complete lyrics of any given track.
-      </h2>
       <form
         className="sm:mx-auto mt-20 justify-center sm:w-full sm:flex"
         onSubmit={(e) => {
@@ -122,18 +119,6 @@ export default function Home() {
           </p>
         </div>
       )}
-
-      <div className="mt-20 mb-10 text-center">
-        <p className="text-primary text-xs">
-          Made by RapidAPI DevRel Team -{" "}
-          <a
-            className="hover:text-active"
-            href="https://github.com/RapidAPI/DevRel-Examples-External"
-          >
-            See more examples like this
-          </a>
-        </p>
-      </div>
     </div>
   );
 }
